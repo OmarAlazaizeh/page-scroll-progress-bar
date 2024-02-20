@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Progress</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 5000px;
+        background-color: #eee;
+      }
+      .scroll {
+        background-color: red;
+        width: 0;
+        height: 5px;
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scroll"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
